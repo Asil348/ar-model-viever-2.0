@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+model-viewer {
+  width: 75vw;
+  height: 75vh;
+  /* border: solid 1px #222; */
+  border-radius: 6px;
+  box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.5);
+}
+#ar-button {
+  margin-left: 1em;
+  margin-bottom: 1em;
+  bottom: 0;
+  position: absolute;
+}
